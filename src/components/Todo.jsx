@@ -24,7 +24,7 @@ function Todo({ todos, doneTask, removeTask, updateTask,  }) {
       className={todo.isComplete ? 'todo-row complete' : 'todo-row'}
       key={index}
     >
-      <div key={todo.id} onClick={() => doneTask(todo.id)}>
+      <div className="task" key={todo.id} onClick={() => doneTask(todo.id)}>
         {todo.text}
       </div>
       <div className='icons'>

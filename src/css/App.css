@@ -60,6 +60,7 @@ h1 {
   color: #fff;
   font-size: 16px;
   margin: auto;
+  padding: 10px;
 }
 
 .todo-input::placeholder {
@@ -104,6 +105,7 @@ h1 {
 .todo-row {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin: 4px auto;
   color: #fff;
@@ -114,9 +116,11 @@ h1 {
     
   );
 
-  padding: 16px;
+  padding: 10px;
   border-radius: 5px;
   width: 90%;
+  height: auto;
+  /* border: solid red; */
 }
 
 .todo-row:nth-child(5n + 1) {
@@ -186,6 +190,11 @@ h1 {
   width: 90%;
 }
 
+.task {
+  flex-wrap: wrap;
+  /* border: solid yellow; */
+}
+
 /* Responsividade */
 @media screen and
 (min-width: 200px) and
@@ -207,6 +216,11 @@ h1 {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
+    /* border: solid yellow; */
+  }
+
+  .task {
+    flex-wrap: wrap;
     /* border: solid yellow; */
   }
 }
