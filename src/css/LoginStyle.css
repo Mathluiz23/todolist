@@ -6,11 +6,8 @@
   }
 
 body {
-    /* background-image: url(../todo.jpg); */
-    
-    background-size: 100%;
-    height: 100%;
-  }
+  background-color:  rgb(2, 20, 40);
+}
   
 .input-login {
     display: flex;
@@ -45,7 +42,7 @@ body {
 .button-entrar {
     display: flex;
     justify-content: center;
-    background-color:  #149fff;
+    background-color:  rgb(20, 120, 220);
     border: none;
     border-radius: 8px;
     color: white;

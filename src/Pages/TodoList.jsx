@@ -11,7 +11,8 @@ export default function TodoList() {
   console.log(task)
   
   useEffect(() => {
-      setTodos(tasksLocalStorage);
+      const storage = tasksLocalStorage === null ? [] : tasksLocalStorage;
+      setTodos(storage);
   }, [])
   
   function addTodo(todo) {
@@ -53,7 +54,7 @@ export default function TodoList() {
 
   return (
     <>
-      <h1>What is your plan for today?</h1>
+      <h1 className="plan-tasks">What is your plan for today?</h1>
       <div>
       <TodoForm onSubmit={addTodo} />
       <Todo

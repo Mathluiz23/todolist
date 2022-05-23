@@ -6,11 +6,7 @@
 }
 
 body {
-  background: linear-gradient(
-    90deg,
-    rgb(26, 107, 161) 0%,
-    rgb(0, 140, 196) 100%
-  );
+ background-color:  rgb(2, 20, 40);
 }
 
 .todo-app {
@@ -33,7 +29,7 @@ body {
 h1 {
   display: flex;
   justify-content: center;
-  margin: 32px 0;
+  margin: 30px 0;
   color: #fff;
   font-size: 35px;
 }
@@ -45,19 +41,21 @@ h1 {
 
 .todo-form {
   display: flex;
-  width: 80%;
+  width: 70%;
   margin: auto;
+  margin-top: 30px;
   margin-bottom: 30px;
   /* border: solid yellow; */
 }
 
 .todo-input {
-  /* padding: 20px 32px 18px 16px; */
   height: 55px;
   width: 70%;
+  min-width: 220px;
   border-radius: 5px;
-  border: 2px solid rgb(16, 122, 48);
   outline: none;
+  border-style:inset;
+  border-color: rgb(20, 120, 220);
   background: transparent;
   color: #fff;
   font-size: 16px;
@@ -70,19 +68,15 @@ h1 {
 }
 
 .todo-button {
-  margin-left: 28px;
+  margin: 8px;
   height: 55px;
   width: 15%;
-  min-width: 50px;
+  min-width: 100px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   outline: none;
-  background: linear-gradient(
-    90deg,
-    rgb(16, 122, 48) 0%,
-    rgb(9, 129, 19) 100%
-  );
+  background-color: rgb(20, 120, 220);
   color: #fff;
   font-size: 15px;
   text-transform: capitalize;
@@ -183,40 +177,36 @@ h1 {
   color: #fff;
 }
 
-/* Adicionando responsividade */
-
-@media screen and
-(min-width: 100px) and
-(max-width: 800px) {
-
-  body {
-    /* background-image: url(../todo.jpg); */
-    background-size: 100% 100%;
-  }
-
-
-h1 {
-  margin: 32px 0;
-  color: #fff;
-  font-size: 30px;
+.plan-tasks {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 90%;
 }
 
-.todo-button {
-  margin-left: 15px;
-  height: 55px;
-  width: 20%;
-  min-width: 50px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  outline: none;
-  background: linear-gradient(
-    90deg,
-    rgb(16, 122, 48) 0%,
-    rgb(9, 129, 19) 100%
-  );
-  color: #fff;
-  font-size: 12px;
-  text-transform: capitalize;
+/* Responsividade */
+@media screen and
+(min-width: 200px) and
+(max-width: 580px) {
+
+  .plan-tasks {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 30px;
+    width: 90%;
+  }
+
+  .todo-form {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border: solid yellow; */
   }
 }
