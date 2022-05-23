@@ -7,12 +7,12 @@ export default function TodoList() {
   const [todos, setTodos] = useState([]);
   const [tasksLocalStorage, setTasksLocalStorage] = useState(JSON.parse(localStorage.getItem('tarefa')));
 
+  const task = localStorage.setItem('tarefa', JSON.stringify(tasksLocalStorage));
+  console.log(task)
   
   useEffect(() => {
-    const task = localStorage.setItem('tarefa', JSON.stringify(todos));
-    setTasksLocalStorage(task);
-    // setTodos(task);
-  }, [tasksLocalStorage])
+      setTodos(tasksLocalStorage);
+  }, [])
   
   function addTodo(todo) {
     if (!todo.text) {
