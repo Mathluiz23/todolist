@@ -36,16 +36,18 @@ export default function TodoForm(props) {
         </>
       ) : (
         <>
-          <input
-            placeholder='Add new task'
-            value={input}
-            onChange={handleChange}
-            name='text'
-            className='todo-input'
-          />
-          <button onClick={handleSubmit} className='todo-button'>
-            <h4>Add Tarefa</h4>
-          </button>
+          <div className="add-new-task">
+            <input
+              placeholder='Add new task'
+              value={input}
+              onChange={handleChange}
+              name='text'
+              className='todo-input'
+            />
+            <button onClick={handleSubmit} className='todo-button'>
+              <h4>Add Tarefa</h4>
+            </button>
+          </div>
         </>
       )}
     </form>
