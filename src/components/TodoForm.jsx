@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 export default function TodoForm(props) {
+  console.log(props)
   const [input, setInput] = useState(props.edit ? props.edit.value : '');
   
   function handleChange(e) {
