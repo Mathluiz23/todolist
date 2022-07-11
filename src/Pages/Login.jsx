@@ -7,7 +7,8 @@ import '../css/LoginStyle.css';
 export default function Login() {
   const navigate = useNavigate();
   const [user, setUser] = useState({ email: '', password: '' });
-
+  const [name, setName] = useState("");
+;
   const [buttonLogin, setButtonLogin] = useState(true);
 
   function loginValidacao() {
@@ -31,8 +32,12 @@ export default function Login() {
 
   function handleClick() {
     const { email } = user;
-    localStorage.setItem('user', JSON.stringify({ email }));
+    localStorage.setItem('user', JSON.stringify({ email, name }));
     navigate("/task")
+  }
+
+  function handleName({ target: { name, value } }) {
+    setName({...name,[name]: value });
   }
 
   return (
@@ -41,6 +46,14 @@ export default function Login() {
         <h1>Todo List</h1>
         <a href="/"><FcTodoList size={40}/></a>
       </div>
+      <Input
+          onChange={ handleName }
+          type="name"
+          placeholder="Informe seu nome ou apelido"
+          name="name"
+          className="input-login"
+        />
+
         <Input
           onChange={ handleChange }
           type="email"

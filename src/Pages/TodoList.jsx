@@ -6,6 +6,10 @@ import '../css/App.css';
 export default function TodoList() {
   const [todos, setTodos] = useState([]);
   const [tasksLocalStorage, setTasksLocalStorage] = useState(JSON.parse(localStorage.getItem('tarefa')));
+  const [nameLocalStorage, setNameLocalStorage] = useState(JSON.parse(localStorage.getItem('user')));
+
+  const { name } = nameLocalStorage;
+  const nameUser = name.name;
 
   const task = localStorage.setItem('tarefa', JSON.stringify(tasksLocalStorage));
   console.log(task)
@@ -54,7 +58,7 @@ export default function TodoList() {
 
   return (
     <>
-      <h1 className="plan-tasks">What is your plan for today?</h1>
+      <h1 className="plan-tasks">What is your plan for today {nameUser} ?</h1>
       <div>
       <TodoForm onSubmit={addTodo} />
       <Todo
