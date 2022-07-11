@@ -49,7 +49,7 @@ export default function Login() {
       <Input
           onChange={ handleName }
           type="name"
-          placeholder="Informe seu nome ou apelido"
+          placeholder="Enter your name or nickname"
           name="name"
           className="input-login"
         />
@@ -64,7 +64,7 @@ export default function Login() {
 
         <Input
           type="password"
-          placeholder="Senha"
+          placeholder="Password"
           name="password"
           onChange={ handleChange }
           className="input-login"
