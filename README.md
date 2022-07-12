@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+<h1 align="center"> To-do List </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Deploy
+click aqui: https://todolist-mathluiz23.vercel.app/
 
-In the project directory, you can run:
+## 💻 Projeto
 
-### `npm start`
+Projeto pessoal desenvolvido com intuito de organizar as tarefas do dia-a-dia.
+Este projeto consiste em uma tela de login onde a pessoa informa seu nome, email e uma senha válidos para login. Após o login o usuário é encaminhado para a sua área de tarefas, onde ele poderá adicionar tarefas em uma lista, corrigir ou atualizar alguma tarefa já listada, marcá-la como realizada e deletá-la.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ações do usuário:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - Login
+ - Inserir tarefa
+ - Atualizar tarefa
+ - Deletar tarefa
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demonstração
 
-### `npm run build`
+<div align="center">
+    <img alt="gif de apresentação" src="src/images/todolist.gif"/>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Habilidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Neste projeto, foram utilizadas as seguintes habilidades:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Utilizar `Hook useState` para lidar com mudanças de estado da aplicação;
 
-### `npm run eject`
+- Utilizar as funcionalidade `setItem e getItem` do localStorage, para adicionar, recuperar ou excluir dados localmente.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Utilizar o componente `BrowserRouter` corretamente;
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Criar rotas, mapeando o caminho da URL com o componente correspondente, via `Route`;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Utilizar o `React` e `React Router-dom`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Usar o componente `Navigate` pra redirecionar para uma rota específica;
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tela de Tarefas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![App Screenshot](src/images/tela.png)
 
-### Code Splitting
+## Rodando o projeto localmente
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone o projeto
 
-### Analyzing the Bundle Size
+```bash
+  git clone git@github.com:Mathluiz23/todolist.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Entre no diretório do projeto
 
-### Making a Progressive Web App
+```bash
+  cd todolist
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Instale as dependências
 
-### Advanced Configuration
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Inicie o projeto
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm run start
+```
