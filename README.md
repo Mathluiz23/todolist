@@ -27,6 +27,11 @@ Ações do usuário:
 
 Neste projeto, foram utilizadas as seguintes habilidades:
 
+
+- Utilizar o `React` e `React Router-dom`
+
+- Usar o componente `Navigate` pra redirecionar para uma rota específica;
+
 - Utilizar `Hook useState` para lidar com mudanças de estado da aplicação;
 
 - Utilizar as funcionalidade `setItem e getItem` do localStorage, para adicionar, recuperar ou excluir dados localmente.
@@ -35,9 +40,6 @@ Neste projeto, foram utilizadas as seguintes habilidades:
 
 - Criar rotas, mapeando o caminho da URL com o componente correspondente, via `Route`;
 
-- Utilizar o `React` e `React Router-dom`
-
-- Usar o componente `Navigate` pra redirecionar para uma rota específica;
 
 
 ## Tela de Tarefas
