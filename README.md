@@ -1,4 +1,4 @@
-<h1 align="center"> To-do List </h1>
+<h1 align="center"> 📝 To-do List ✏️ </h1>
 
 
 ## Deploy
