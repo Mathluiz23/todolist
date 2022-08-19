@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../css/login.css';
 import '../css/LoginStyle.css';
 
 export default function Input({name, onclick, onChange, type, placeholder, label, className}){
