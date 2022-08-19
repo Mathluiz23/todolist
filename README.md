@@ -69,5 +69,5 @@ Instale as dependências
 Inicie o projeto
 
 ```bash
-  npm run start
+  npm start
 ```
