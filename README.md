@@ -1,7 +1,10 @@
 <h1 align="center"> 📝 To-do List ✏️ </h1>
 
 
-## Deploy
+## :desktop_computer: :iphone: Deploy
+
+Neste link você tem acesso ao projeto disponibilizado na web.
+
 click aqui: https://todolist-mathluiz23.vercel.app/
 
 ## 💻 Projeto
@@ -9,21 +12,21 @@ click aqui: https://todolist-mathluiz23.vercel.app/
 Projeto pessoal desenvolvido com intuito de organizar as tarefas do dia-a-dia.
 Este projeto consiste em uma tela de login onde a pessoa informa seu nome, email e uma senha válidos para login. Após o login o usuário é encaminhado para a sua área de tarefas, onde ele poderá adicionar tarefas em uma lista, corrigir ou atualizar alguma tarefa já listada, marcá-la como realizada e deletá-la.
 
-Ações do usuário:
+## :man_technologist: Ações do usuário:
 
- - Login
- - Inserir tarefa
- - Atualizar tarefa
- - Deletar tarefa
+ - **Login** - inserindo seu nome ou apelido, informando email válido e senha.
+ - **Inserir tarefa** - descrever a tarefa e clicar e adicioná-la.
+ - **Atualizar tarefa** - clicar no ícone de update, para atualizar a respectiva tarefa clicada.
+ - **Deletar tarefa** - clicar no ícone de lixeira, para deletar a respectiva tarefa clicada.
 
 
-## Demonstração
+## :play_or_pause_button: Demonstração
 
 <div align="center">
     <img alt="gif de apresentação" src="src/images/todolist.gif"/>
 </div>
 
-## Habilidades
+## :man_mechanic: Habilidades
 
 Neste projeto, foram utilizadas as seguintes habilidades:
 
@@ -42,11 +45,11 @@ Neste projeto, foram utilizadas as seguintes habilidades:
 
 
 
-## Tela de Tarefas
+## :man::computer: Tela de Tarefas
 
 ![App Screenshot](src/images/tela.png)
 
-## Rodando o projeto localmente
+## :man_technologist: Rodando o projeto localmente
 
 Clone o projeto
 
