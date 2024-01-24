@@ -14,7 +14,7 @@ Este projeto consiste em uma tela de login onde a pessoa informa seu nome, email
 
 ## :man_technologist: Ações do usuário:
 
- - **Login** - inserindo seu nome ou apelido, informando email válido e senha.
+ - **Login** - Página de login foi excluído para agilizar o acesso. 💥
  - **Inserir tarefa** - descrever a tarefa e clicar e adicioná-la.
  - **Atualizar tarefa** - clicar no ícone de update, para atualizar a respectiva tarefa clicada.
  - **Deletar tarefa** - clicar no ícone de lixeira, para deletar a respectiva tarefa clicada.
