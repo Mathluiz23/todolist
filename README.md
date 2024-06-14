@@ -5,7 +5,8 @@
 
 Neste link você tem acesso ao projeto disponibilizado na web.
 
-click aqui: https://todolist-mathluiz23.vercel.app/
+<a href="https://todolist-mathluiz23.vercel.app/" target="_blank">click aqui</a>
+
 
 ## 💻 Projeto
 
